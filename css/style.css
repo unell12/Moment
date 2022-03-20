@@ -75,7 +75,7 @@ li {
     width: auto;
     max-width: 520px;
     font-weight: 300;
-    transition: 1.8888888s;
+    transition: 1.08s;
 }
 
 ul {
@@ -95,7 +95,7 @@ ul {
 
 .box:hover {
     border: 1px rgba(235, 235, 255, 0.9) solid;
-    background-color: rgba(255, 255, 221, 0.55);
+    background-color: rgba(255, 255, 221, 0.35);
 }
 
 .dTodo {
@@ -173,17 +173,17 @@ ul {
 
 .todo:hover {
     border: 1px rgba(235, 235, 255, 0.9) solid;
-    background-color: rgba(255, 255, 221, 0.55);
+    background-color: rgba(255, 255, 221, 0.35);
 }
 
 .we:hover {
     border: 1px rgba(235, 235, 255, 0.9) solid;
-    background-color: rgba(255, 255, 221, 0.55);
+    background-color: rgba(255, 255, 221, 0.35);
 }
 
 .qe:hover {
     border: 1px rgba(235, 235, 255, 0.9) solid;
-    background-color: rgba(255, 255, 221, 0.55);
+    background-color: rgba(255, 255, 221, 0.35);
 }
 
 .hidden {
