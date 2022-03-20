@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!--img src="../img/asksdfjklsd.jpg"-->
+    <div>
+        <div class="box"><h2 id="clock" class="clock glow">I'm clock!</h2><div id="greeting" class="hidden sx-font"></div>
+            <button id="forgetme" class="button">Forget me</button>
+            <form id="login-form">
+                <input
+                    required
+                    maxlength="15"
+                    type="text"
+                    placeholder="Whats are name?"
+                />
+                <input type="submit" value="Log In" class="button">
+            </form>
+        </div>
+        <div class="todo glow">
+            <form id="todo-form">
+                <input id="ww" type="text" placeholder="To do list!" required/>
+                <button id="go" class="button">add it!</button>
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+        <div id="quote" class="glow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <script src="../js/greeting.js"></script>
+    <script src="../js/clock.js"></script>
+    <script src="../js/quotes.js"></script>
+    <script src="../js/background.js"></script>
+    <script src="../js/todo.js"></script>
+</body>
+</html>
