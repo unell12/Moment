@@ -1,5 +1,6 @@
-/*const images = [
-    "asksdfjklsd.jpg"
+const images = [
+    "supernova.jpg",
+    "asdfadsasdfasdf.jpg"
 ]
 
 const chosen = images[Math.floor(Math.random() * images.length)]
@@ -8,4 +9,4 @@ const bgImage = document.createElement("img")
 
 bgImage.src = `../img/${chosen}`
 
-document.body.style.backgroundImage = `url(${bgImage.src})`*/
+document.body.style.backgroundImage = `url(${bgImage.src})`

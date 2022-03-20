@@ -1,13 +1,20 @@
 /* {
     background-color: aliceblue;
 }*/
+
+* {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+}
+
 .sx-font {
     text-decoration: none;
     font-weight: 300;
 }
 
 body {
-    background-image: url(../img/dasklfj;klfdjsljksflkj.jpg);
+    /*background-image: url(../img/supernova.jpg);*/
     background-size: cover;
 }
 
@@ -71,9 +78,24 @@ li {
     transition: 1.8888888s;
 }
 
+ul {
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin: 0 auto;
+    margin-top: 10px;
+    width: auto;
+    max-width: 520px;
+    min-height: 350px;
+    max-height: 350px;
+    font-weight: 300;
+    transition: 1.8888888s;
+}
+
 .box:hover {
     border: 1px rgba(235, 235, 255, 0.9) solid;
-    background-color: rgba(188, 192, 220, 0.75);
+    background-color: rgba(255, 255, 221, 0.55);
 }
 
 .dTodo {
@@ -111,15 +133,57 @@ li {
     background-color: rgba(235, 235, 255, 0.335);
     margin-top: 50px;
     min-height: 420px;
+    max-height: 421px;
     max-width: 300px;
     width: 45%;
     font-weight: 300;
     transition: 2s;
 }
 
+.we {
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(235, 235, 255, 0.335);
+    margin-top: 50px;
+    min-height: 180px;
+    max-height: 180px;
+    max-width: 300px;
+    width: 45%;
+    font-weight: 300;
+    transition: 2s;
+}
+
+.qe {
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(235, 235, 255, 0.335);
+    margin-top: 40px;
+    min-height: 180px;
+    max-height: 180px;
+    max-width: 300px;
+    width: 45%;
+    font-weight: 300;
+    transition: 2s;
+    position: relative;
+    left: /*970px*/51.5%;
+    bottom: 260px;
+}
+
 .todo:hover {
     border: 1px rgba(235, 235, 255, 0.9) solid;
-    background-color: rgba(188, 192, 220, 0.75);
+    background-color: rgba(255, 255, 221, 0.55);
+}
+
+.we:hover {
+    border: 1px rgba(235, 235, 255, 0.9) solid;
+    background-color: rgba(255, 255, 221, 0.55);
+}
+
+.qe:hover {
+    border: 1px rgba(235, 235, 255, 0.9) solid;
+    background-color: rgba(255, 255, 221, 0.55);
 }
 
 .hidden {
@@ -159,13 +223,13 @@ input {
     font-weight: 200;
 }
 
-#quote {
+/*#quote {
     width: 100%;
-    height: 99px; /* footer의 높이 */
+    height: 99px; /* footer의 높이 
     position: absolute;  
     bottom: 0;
     left: auto;
-}
+}*/
 
 #quote span:nth-child(2) {
     color: #888;
@@ -198,3 +262,22 @@ img:focus {
 	-webkit-filter: none;
 	filter: none;
 }
+
+/*ul {
+	display: inline-;
+	overflow: auto;
+	width: 7.2em;
+	height: 9em;
+	border: 1px solid silver;
+	padding: .3em .5em;
+	list-style: none;
+	margin-top: 2em;
+	font: 100 200%/1.6 'Frutiger LT Std', sans-serif;
+	background: linear-gradient(white 10px, hsla(0,0%,100%,0)) 0 0 / 100% 50px,
+	            radial-gradient(at top, rgba(0,0,0,.2), transparent 70%) 0 0 / 100% 15px,
+	            linear-gradient(to top, white 15px, hsla(0,0%,100%,0)) bottom / 100% 50px,
+	            radial-gradient(at bottom, rgba(0,0,0,.2), transparent 70%) bottom / 100% 15px;
+	background-repeat: no-repeat;
+	background-attachment: local, scroll, local, scroll;
+	margin-top: 30px;
+}*/
