@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../img/asdfadsasdfasdf.jpg);
+    background-image: url(../img/dasklfj;klfdjsljksflkj.jpg);
     background-size: cover;
 }
 
@@ -36,7 +36,7 @@ li {
 
 .glow {
     color: beige;
-    text-shadow: 0 0 0.3em, 0 0 0.9em;;
+    text-shadow: 0 0 0.6em, 0 0 1.8em;;
     transform: 10s;
 }
 
@@ -62,12 +62,18 @@ li {
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.35);
     margin: 0 auto;
     margin-top: 50px;
     width: auto;
     max-width: 520px;
     font-weight: 300;
+    transition: 1.8888888s;
+}
+
+.box:hover {
+    border: 1px rgba(235, 235, 255, 0.9) solid;
+    background-color: rgba(188, 192, 220, 0.75);
 }
 
 .dTodo {
@@ -83,17 +89,37 @@ li {
     font-weight: 300;
 }
 
+.util_line {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left {
+    margin-left: 575px;
+}
+
+.right {
+    margin-right: 575px;
+}
+
+
 .todo {
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.25);
-    margin: 0 auto;
+    background-color: rgba(235, 235, 255, 0.335);
     margin-top: 50px;
-    width: auto;
     min-height: 420px;
     max-width: 300px;
+    width: 45%;
     font-weight: 300;
+    transition: 2s;
+}
+
+.todo:hover {
+    border: 1px rgba(235, 235, 255, 0.9) solid;
+    background-color: rgba(188, 192, 220, 0.75);
 }
 
 .hidden {
